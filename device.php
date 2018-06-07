@@ -18,10 +18,10 @@
 <div data-role="page" id="pageone">
 <?php
 
-$servername = "127.12.48.2";
-$username = "admin5Iw3Vsm";
-$password = "IqM5jXfTyGQR";
-$dbname = "info";
+$servername = "myaql";
+$username = "user";
+$password = "user";
+$dbname = "btlock";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
